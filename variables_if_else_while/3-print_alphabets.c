@@ -11,8 +11,10 @@ char mcaracter = 'A';
 for (caracter = 'a'; caracter <= 'z'; caracter++)
 putchar(caracter);
 for (mcaracter = 'A'; mcaracter <= 'Z'; mcaracter++)
+{
 putchar(mcaracter);
 if (mcaracter == 'Z')
 putchar('\n');
+}
 return (0);
 }
