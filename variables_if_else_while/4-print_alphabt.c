@@ -13,7 +13,7 @@ if (caracter != 'e' && caracter != 'q')
 {
 putchar(caracter);
 }
-else if (caracter == 'z')
+if (caracter == 'z')
 {
 putchar('\n');
 }
