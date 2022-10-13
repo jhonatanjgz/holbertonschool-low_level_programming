@@ -3,28 +3,27 @@
 #include<time.h>
 
 /**
- * main - categorizar en positivo, negatio o zero un numero generado en la ejecucion
+ * main - positivo, negativo o zero un numero generado en la ejecucion
  * Return: 0 siempre
  */
 
 int main(void)
 {
-  int n;
-  
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 
-  if (n > 0)
-   {
-     printf("%i es positivo", n);
-   }
-  else if (n < 0)
-   {
-     printf("%i es negativo", n);
-   }
-  else
-   {
-     printf("%i es cero", n);
-   }
-  return (0);
+if (n > 0)
+{
+printf("%i is positive", n);
+}
+else if (n < 0)
+{
+printf("%i is negative", n);
+}
+else
+{
+printf("%i is zero", n);
+}
+return (0);
 }
