@@ -5,12 +5,9 @@
  */
 int main(void)
 {
-int n;
-for (n = 0; n <= 9; n++)
-{
-putchar(n + 48);
- if (n == 9)
-   putchar('\n');
-}
-return (0);
+  int numero = '0';
+
+  for (numero = '0'; numero <= '9'; numero++)
+    putchar(numero);
+  return (0);
 }
